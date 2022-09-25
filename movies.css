@@ -1,0 +1,52 @@
+body{
+    background: url(images/movieclap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: right;
+	padding: 30px 10%;
+    background-color:rgba(0, 0, 0, 0.421);
+}
+.logo {
+	cursor: pointer;
+    margin-left: -50px;
+}
+.nav_links {
+	list-style: none;
+    color: white;
+    size: 22px;
+}
+.nav_links li {
+	display: inline-block;
+	padding: 8px 20px;
+    color: white;
+    size: 22px;
+}
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+	color: #0088a9;
+}
+.titre{
+    color: white;
+    size: 32px;
+    margin-left: 25px;
+    text-shadow: -3px 3px rgba(0, 0, 0, 0.47);
+    text-decoration: underline;
+ }
+ .tit{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.455);
+ }
+ .sub{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.455);
+ }
